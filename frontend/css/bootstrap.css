@@ -1,0 +1,159 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.Contenedor{
+width: 1483.4px;
+height:530px;
+background-color: black;
+
+margin-top: 100px;
+border: 3px solid #DBDBDB;
+}
+
+.boton_personalizado{
+  text-decoration: none;
+  padding: 16px;
+
+  font-weight: 630;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1883ba;
+  
+  border: 2px solid #2D71D6;
+}
+.boton_personalizado:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+.dsf3{
+    width: 100px;
+    height: 100px;
+    padding-top:19px ;
+    padding-left: 134px;
+    margin: 0 auto;
+    float: left;
+}
+
+.C_I_S{
+    width: 820px;
+    height: 70px;
+    float: left;
+}
+.C_I{
+    float: left;
+    width: 1050px;
+    height: 530px;
+    background-color: #EEEEEE;
+}
+.C_D{
+    float: left;
+    width: 427px;
+    height: 530px;
+    background-color: #EEEEEE;
+    padding: 17px;
+}
+.C_D_S{
+    width:374px;
+    height: 80px;
+    float: left;
+  
+    background-color: rgb(250, 3, 36);
+    color: white;
+    font-size: 30px;
+    margin: 0px 9px;
+padding: 22px 59px;
+margin-top:4px;
+}
+.L_01{
+    color: black;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.C_D_I{
+    background-color: white;
+    width: 382px;
+    height: 497px;
+    border: 4px solid rgba(139, 146, 159, 0.347);
+    /*display: flex;
+    flex-direction: row;*/
+}
+
+.F_01{
+    width: 300px;
+    height: 63px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.F_02{
+    width: 1140px;
+    height: 65px;
+  float: left;
+
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.C_2{
+    width: 333px;
+    height: 28px;
+   
+}
+.C_1{
+    width: 330px;
+    height: 28px;
+   
+    float: left;
+}
+
+
+.correo{
+  min-width: 110px;
+}
+.cuadrado{
+
+    width: 1000px;
+    height: 350px;
+    margin: 80px 22px;
+    background-color: white;
+
+}
+
+
+#imput{
+    border: #D73D32 1px solid;
+}
+
+    
+
+.titulo{
+    background-color: aqua;
+    color: w;
+}
+.lapiz{
+    margin-top: 0;
+    height: 34px;
+    width: 50px;
+}
+.borrador{
+    margin-top: 0px;
+    margin-left:20px;
+    height: 34px;
+    width: 50px;
+}
+
+
+.cuadro_rojo{
+    background-color:#D73D32;
+     width:144px;
+     height: 36px;
+ float: left;
+ color: white;
+ padding: 6.5px 17px;
+ margin-top: 26px;
+ margin-left: 45px;
+ }
+.table table-bordered{
+     max-width: 150px;
+}
