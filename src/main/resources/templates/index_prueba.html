@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeLeaf.org" lang="en">
+<html xmlns:th="http://thymeLeaf.org"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Universidad</title>
+    <link rel="stylesheet" href="recursos/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <main class="Contenedor">
+    <a th:href="@{new}" class="btn btn-primary">Nuevo</a>
+        <section class="C_D">
+            <div class="C_D_S">ALUMNOS UPEU</div>
+            <div class="C_D_I">            
+                    <nav class="F_01">
+                        <h4 class="L_01">Escuela</h4>
+                        <select name="s" class="C_1">
+    
+                            <option>Eliga una opcion</option>
+                            <option>Sistenas</option>
+                            <option>Ambiental</option>
+                            <option>Arquitectura</option>
+                            <option>Civil</option>
+                            <option>Alimentos</option>
+    
+                        </select>
+                    </nav>
+                
+                <nav class="F_02">
+                    <h4 class="L_01">Nombres y Apellidos</h4>
+                    <input class="C_2" type="text">
+                </nav>
+                <nav class="F_02">
+                    <h4 class="L_01">Correo</h4>
+                    <input class="C_2" type="text" >
+                </nav>
+                <nav class="F_02">
+                    <h4 class="L_01">Teléfono</h4>
+                    <input class="C_2" type="text" >
+                </nav>
+                <div class="dsf3">
+                    
+                    <input type="button" value="ENVIAR" class="boton_personalizado">
+
+                </div>
+
+            </div>
+ 
+
+        </section>
+        <section class="C_I">
+
+
+            <div class="C_I_I">
+                <Section class="cuadrado">
+                    <table class="table table-responsive table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="titulo">ID</th>
+                                <th class="titulo">Escuela</th>
+                                <th class="titulo">Apellidos y Nombres</th>
+                                <th class="titulo">Correo</th>
+                                <th class="titulo">Teléfono</th>
+                                <th class="titulo">Operaciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="persona:${personas}">
+                                <td th:text="${persona.id}">${persona.id}</td>
+                                <td th:text="${persona.nombre}">${persona.nombre}</td>
+                                <td th:text="${persona.apellido}">${persona.apellido}</td>
+                                <td th:text="${persona.email}">${persona.email}</td>
+                                <td th:text="${persona.telefono}">${persona.telefono}</td>
+                                <td><button class="lapiz"> <img src="Imagenes/L.jpg" alt="" srcset=""><button
+                                            class="borrador"> <img src="Imagenes/B.jpg" alt="" srcset=""> </button></td>
+                            </tr>
+                            
+                        </tbody>
+
+                    </table>
+                </Section>
+            </div>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
